@@ -1,0 +1,120 @@
+/* Start Variabels */
+:root{
+    --color-Address:hsl(0, 0%, 100%);
+}
+/* End Varibales */
+/* Start Main Global Browser */
+body{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+/* End Main Global Browser */
+/* Start Main Container & box */
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .box{
+    width: 1100px;
+    height: 446px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+/* End Main Container & box*/
+.container .box .colum{
+    height: 446px;
+}
+/* Start Colum 1 */
+.container .box .colum1{
+    border-radius: 10px 0 0 10px;
+    padding: 45px 150px 45px 60px;
+    height: 355px;
+    background-color: hsl(244, 38%, 16%);
+}
+.container .box .colum1 .text h1{
+    color: var(--color-Address);
+    font-weight: 700;
+    width: 350px;
+}
+.container .box .colum1 .text h1 span{
+    color: hsl(277, 64%, 61%);
+}
+.container .box .colum1 .text p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+    width: 350px;
+}
+.container .box .colum1 .price{
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.6);
+    height: 140px;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 350px;
+
+}
+.container .box .colum1 .price .pri span{
+    color: var(--color-Address);
+    font-weight: 700;
+    margin-right: 40px;
+    font-size: 20px;
+
+}
+.container .box .colum1 .price .pri p{
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+}
+/* Enbd Colum 1*/
+/* Startcolum 2 */
+.container .box .colum2{
+    position: relative;
+}
+.container .box .colum2 img{
+    border-radius: 0 10px 10px 0;
+}
+.container .box .colum2::before{
+    content: "";
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(277, 64%, 61%);
+    position: absolute;
+    opacity: 0.6;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+/* End Colum 2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
